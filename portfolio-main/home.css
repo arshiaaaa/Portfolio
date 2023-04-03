@@ -1,0 +1,403 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #222;
+  font-family: sans-serif;
+}
+.sectionwrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fb6f92;
+  padding-top: 30px;
+  width: 100%;
+  margin: 30px;
+  padding-bottom: 60px;
+}
+.box1 {
+  height: auto;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.box2 {
+  height: auto;
+  background-color: #222;
+  padding: 16px;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: -30px 30px 5px -4px rgba(34, 34, 34, 0.5);
+  -webkit-box-shadow: -30px 30px 5px -4px rgba(34, 34, 34, 0.5);
+  -moz-box-shadow: -30px 30px 5px -4px rgba(34, 34, 34, 0.5);
+  display: flex;
+  align-items: center;
+}
+h2 {
+  font-size: 30px;
+}
+.box2 h2 {
+  color: #fb6f92;
+  font-size: 9vw;
+}
+.box1 h2 {
+  color: #fff;
+}
+.smol {
+  padding: 20px;
+}
+.hi {
+  font-size: 38vw;
+}
+.iam {
+  font-size: 15vw;
+}
+@media all and (min-width: 500px) {
+  .box1 h2 {
+    font-size: 120px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+}
+@media all and (min-width: 800px) {
+  .section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .box1 {
+    width: 40%;
+    padding: 20px;
+    margin: 40px;
+    height: auto;
+  }
+  .box1 h2 {
+    font-size: 120px;
+  }
+  .box2 h2 {
+    font-size: 3.2vw;
+  }
+  .box2 {
+    width: 60%;
+    padding: 40px 60px;
+    margin: 40px;
+    height: auto;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .hi {
+    font-size: 16vw;
+  }
+  .iam {
+    font-size: 9vw;
+  }
+}
+@media all and (min-width: 1000px) {
+  h2 {
+    font-size: 60px;
+  }
+  .box1,
+  .box2 {
+    height: auto;
+  }
+}
+.steps,
+.stepwrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps {
+  margin: 20px;
+  margin-top: 40px;
+  width: 80%;
+}
+.stepwrap {
+  width: 100%;
+  padding: 0px;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-color: #222;
+  border: 7px solid #fb6f92;
+  margin: px;
+}
+.content {
+  text-align: center;
+  color: #fff;
+}
+.content h3 {
+  color: #fb6f92;
+  margin: 5px;
+  font-size: 30px;
+}
+.content p {
+  margin: 10px;
+}
+.stepheading {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin: 20px 20px 0px 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.section.two {
+  width: 90%;
+  height: auto;
+  border-radius: 30px;
+  margin-bottom: 60px;
+  padding: 20px;
+  box-shadow: -20px 20px 5px -4px rgba(0, 0, 0, 0.5),
+    20px -20px -5px 4px rgba(0, 0, 0, 0.5);
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 30px;
+  height: auto;
+  width: 90%;
+}
+.comprow1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.comprow1 img {
+  width: 50% !important;
+  margin: 30px 0px;
+}
+.img2 img {
+  width: 80% !important;
+  margin: 30px 0px;
+}
+.imageRow {
+  width: 100% !important;
+  margin: 20px 0px;
+}
+.comprow2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.comprow2 img {
+  border: 2px#fb6f92 solid;
+  border-radius: 25px;
+  width: 80vw !important;
+  margin: 30px 0px;
+}
+.comprowwrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+}
+#game {
+  width: 100% !important;
+}
+#game2 {
+  width: 70% !important;
+}
+#game3 {
+  width: 200px !important;
+}
+@media all and (min-width: 1000px) {
+  .comprow1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .comprow1 img {
+    width: 16% !important;
+    margin: 10px 10px;
+  }
+  .img2 img {
+    width: 28% !important;
+    margin: 30px 0px;
+  }
+  .comprow2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .comprow2 img {
+    width: 20vw !important;
+    margin: 10px 10px;
+  }
+  .comprow2 a {
+    margin: 10px;
+  }
+  #game {
+    width: 500px !important;
+    margin: 0px 50px;
+  }
+  #game2 {
+    width: 20% !important;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .steps {
+    flex-direction: row;
+    justify-content: space-around;
+    vertical-align: middle;
+    margin-top: 0px;
+  }
+  .stepwrap {
+    width: 100%;
+  }
+  .stepheading {
+    font-size: 80px;
+    text-align: center;
+    margin: 60px 60px 60px 60px;
+  }
+  .content h3 {
+    font-size: 45px;
+  }
+  .content p {
+    font-size: 20px;
+  }
+  .cthree {
+    margin-top: -20px;
+  }
+}
+
+.block {
+  margin: 40px;
+  border-radius: 30px;
+  background: linear-gradient(
+    90deg,
+    #fb6f92, #f598a8, #aea4e3, #aea4e3, #f598a8, #fb6f92
+  );
+  background-size: 400%;
+  animation-name: steam;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  margin-bottom: 50px;
+}
+.section.block.big {
+  height: auto;
+  width: 80%;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+@media all and (min-width: 800px) {
+  .section.block.big {
+    height: auto;
+  }
+}
+.section.threecolor {
+  background-color: #222;
+}
+.block.smol {
+  height: auto;
+  width: 80%;
+}
+@media all and (min-width: 1300px) {
+  .box1 h2 {
+    font-size: 120px;
+  }
+  .hi {
+    font-size: 10vw;
+  }
+  .iam {
+    font-size: 8vw;
+  }
+}
+@media all and (min-width: 1400px) {
+  .cthree {
+    margin-top: 0px;
+  }
+}
+.circle i {
+  font-size: 100px;
+  color: #fb6f92;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contactme {
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 6vw;
+  display: flex;
+  color: #fff;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactme i {
+  margin-right: 5px;
+  color: #fb6f92;
+  font-size: 7vw;
+}
+@media all and (min-width: 500px) {
+  .contactme {
+    font-size: 3.7vw;
+  }
+  .contactme i {
+    font-size: 4.7vw;
+  }
+}
+@media all and (min-width: 1200px) {
+  .cont {
+    margin-top: 0px;
+    margin-right: 40px;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .contactme {
+    font-size: 1.7vw;
+    align-items: flex-start;
+  }
+  .contactme i {
+    font-size: 2.7vw;
+  }
+}
+.calendly-inline-widget {
+  width: 95%;
+  margin: auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
