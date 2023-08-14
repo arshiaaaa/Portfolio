@@ -168,7 +168,7 @@ h2 {
   box-shadow: -20px 20px 5px -4px rgba(0, 0, 0, 0.5),
     20px -20px -5px 4px rgba(0, 0, 0, 0.5);
 }
-.section3 {
+/* .section3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,7 +176,16 @@ h2 {
   margin: 30px;
   height: auto;
   width: 90%;
+} */
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 30px auto;
 }
+
 .comprow1 {
   display: flex;
   flex-direction: column;
@@ -207,13 +216,21 @@ h2 {
   width: 80vw !important;
   margin: 30px 0px;
 }
-.comprowwrap {
+/* .comprowwrap {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 80vw;
   margin: auto;
+} */
+
+.comprowwrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
+
 #game {
   width: 100% !important;
 }
@@ -238,19 +255,42 @@ h2 {
     width: 28% !important;
     margin: 30px 0px;
   }
-  .comprow2 {
+  /* .comprow2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+  } */
+
+  .comprow2 {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 30px auto;
   }
-  .comprow2 img {
+
+  /* .comprow2 img {
     width: 20vw !important;
     margin: 10px 10px;
+  } */
+  /* .comprow2 a {
+    margin: 10px;
+  } */
+
+  .comprow2 img {
+    width: 100%; /* Make sure the images fill their containers */
+    max-width: 1000px; /* Limit the maximum width of the images */
+    border: 2px solid #fb6f92;
+    border-radius: 25px;
   }
+
   .comprow2 a {
+    flex: 0 0 calc(33.33% - 20px); /* Set the width of each image container */
     margin: 10px;
   }
+  
   #game {
     width: 500px !important;
     margin: 0px 50px;
